@@ -1,0 +1,12 @@
+version of the git application
+git --version
+------
+List all ocnfiguration
+git config --list
+------
+show the diff of the currnet file and previous commit
+git diff index.html
+------
+differnt of the current file the commit number
+git diff fa074aff6183 -p
+-------
