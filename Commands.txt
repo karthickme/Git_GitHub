@@ -10,3 +10,5 @@ git diff index.html
 differnt of the current file the commit number
 git diff fa074aff6183 -p
 -------
+To Make sure you local master and github's master branch with be used to merge
+git branch --set-upstream-to=origin/master master
