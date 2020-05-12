@@ -46,3 +46,11 @@ git reset HEAD .
 even uncomited change can be done in bulk
 git checkout -- .
 ------
+creating a branch
+git branch <<branch name>>
+------
+switching to a branch
+git checkout branchname
+------
+crate and switch to a new branch
+git checkout -b branchname
