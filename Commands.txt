@@ -34,3 +34,15 @@ git reset HEAD <<path/filename>>
 unstaged change to previous version
 git checkout -- <<path/filename>>
 ------
+how to revert a commited change to a file
+git checkout fa07aff6183 <<path/filename>>
+------
+stage all in the folder
+git add .
+------
+revert back all to previous head
+git reset HEAD .
+------
+even uncomited change can be done in bulk
+git checkout -- .
+------
