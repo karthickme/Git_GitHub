@@ -15,3 +15,22 @@ git branch --set-upstream-to=origin/master master
 -------
 this is supposed to show the remove status too!!! <<but not for me>>
 git status
+--------
+shoe details of that particular commit
+git show fa07aff6183
+--------
+Show head details
+git show HEAD
+--------
+show what happened 3 commits before head
+git show HEAD~3
+--------
+give line by line annotatation about when who and what changed.
+git annotate <<file.name>>
+-------
+unstage a staged change
+git reset HEAD <<path/filename>>
+------
+unstaged change to previous version
+git checkout -- <<path/filename>>
+------
