@@ -49,3 +49,11 @@ git checkout -- .
 visualize the changes done to the applicaiton
 git log --graph
 ------
+creating a branch
+git branch <<branch name>>
+------
+switching to a branch
+git checkout branchname
+------
+crate and switch to a new branch
+git checkout -b branchname
