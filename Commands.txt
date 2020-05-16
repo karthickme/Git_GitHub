@@ -46,3 +46,6 @@ git reset HEAD .
 even uncomited change can be done in bulk
 git checkout -- .
 ------
+visualize the changes done to the applicaiton
+git log --graph
+------
